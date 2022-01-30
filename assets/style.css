@@ -129,7 +129,6 @@ header nav ul li a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-self: auto;
 }
 
 .border a {
@@ -146,7 +145,6 @@ flex-wrap: wrap;
 .border img{
   border: 2px solid black;
   width: 100%;
- 
 
 }
 .image1 {
@@ -158,8 +156,9 @@ flex-wrap: wrap;
 
 .bottom-left {
   position: absolute;
-  bottom: 40px;
-  left: 40px;
+  bottom: 20px;
+  left: 20px;
   background-color: black;
   padding: 20px;
+  margin-left: -20px;
 }

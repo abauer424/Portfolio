@@ -51,8 +51,8 @@ header nav ul li a {
     
 /* Hero Styles Start */
 .hero {
-   padding: 100px;
-   background-image: url("./images/hero1.jpg");
+   padding: 0px;
+   background-image: url("./images/hero2.jpg");
    height: 80%;
    background-position: 50% 40%;
    background-repeat: no-repeat;
@@ -70,5 +70,38 @@ header nav ul li a {
     color: black; 
     display: flex;
     background-color: white;
-    margin-left: 60%;
+    margin: 10% 0px 0px 60%;
 }
+
+.secondary-img img {
+    max-width: 20%;
+  }
+
+  .secondary-img {
+    flex: 1 12%;
+    margin: 0px 80px 0px 0px;
+    padding: 50px;
+  }
+
+  /* Body Styles Start */
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  aside h1 {
+    flex: 1;
+    background-color: #b9c6ae;
+    padding: 80px;
+    text-align: center;
+  }
+
+  .right-side {
+    flex: 4;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }

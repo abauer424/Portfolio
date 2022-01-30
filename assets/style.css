@@ -85,23 +85,16 @@ header nav ul li a {
 
   /* Body Styles Start */
 
-  main {
-    display: flex;
-    flex-wrap: wrap;
-  }
 
-  aside h1 {
-    flex: 1;
-    background-color: #b9c6ae;
-    padding: 80px;
-    text-align: center;
-  }
+ .about-me {
+ display: flex;
+ }
 
-  .right-side {
-    flex: 4;
-    background-color: #fff;
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+ .item{
+   order: 2;
+ }
+
+
+
+
+   

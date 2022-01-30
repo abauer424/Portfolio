@@ -1,10 +1,11 @@
+/* Apply to All*/
 * {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Header Styles Start */
+/* Apply to Header */
 header {
     padding: 20px 35px;
     background-color: black;
@@ -49,7 +50,7 @@ header nav ul li a {
     border-bottom: 3px solid rgb(139, 139, 139);
 }
     
-/* Hero Styles Start */
+/* Apply to Hero */
 .hero {
    padding: 0px;
    background-image: url("./images/hero2.jpg");
@@ -70,7 +71,7 @@ header nav ul li a {
     color: black; 
     display: flex;
     background-color: white;
-    bottom: 40px;
+    bottom: 70px;
     right: 30px;
 }
 
@@ -84,14 +85,13 @@ header nav ul li a {
     padding: 50px;
   }
 
-  /* Body Styles Start */
+  /* Apply to Body */
 
 
  .container {
  display: flex;
  flex-direction: row;
  }
-
 
  .item {
   padding: 30px;
@@ -103,20 +103,42 @@ header nav ul li a {
   right: 0;
 }
 
-
 .headline {
-  margin: 50px 0 0 100px;
+  margin: 30px 0 0 100px;
   position: relative;
   padding-right: 10%;
 }
 
+.border li{
+  display: inline;
+}
 
-.item ul li a {
+.border ul li a {
   text-decoration: none;
   color: black;
+  margin: 0 60px 20px 60px;
+  font-weight: lighter;
+  font-size: 18px;
+  border-bottom: 3px solid rgb(139, 139, 139);
 }
 
 .border {
   border-left: 2px solid black;
   padding-left: 30px;
+}
+
+.border a {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+}
+
+main .item ul {
+display: flex;
+flex-wrap: wrap;
+}
+
+
+main img{
+  border: 2px solid black;
 }

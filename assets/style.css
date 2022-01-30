@@ -70,7 +70,8 @@ header nav ul li a {
     color: black; 
     display: flex;
     background-color: white;
-    margin: 10% 0px 0px 60%;
+    bottom: 40px;
+    right: 30px;
 }
 
 .secondary-img img {
@@ -86,15 +87,36 @@ header nav ul li a {
   /* Body Styles Start */
 
 
- .about-me {
+ .container {
  display: flex;
- }
-
- .item{
-   order: 2;
+ flex-direction: row;
  }
 
 
+ .item {
+  padding: 30px;
+}
+
+.headline h1 {
+  text-align: right;
+  position: absolute;
+  right: 0;
+}
 
 
-   
+.headline {
+  margin: 50px 0 0 100px;
+  position: relative;
+  padding-right: 10%;
+}
+
+
+.item ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.border {
+  border-left: 2px solid black;
+  padding-left: 30px;
+}

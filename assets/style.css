@@ -162,3 +162,9 @@ flex-wrap: wrap;
   padding: 20px;
   margin-left: -20px;
 }
+
+.secondary-images {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}

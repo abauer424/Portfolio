@@ -168,3 +168,39 @@ flex-wrap: wrap;
   flex-wrap: wrap;
   width: 100%;
 }
+
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+      /* this will be applied on any screen smaller than 575px */
+
+  h2 {
+    font-size: 20px;
+  }
+  .headline h1{
+    right: 40px;
+  }
+  header nav ul li a {
+    font-size: 16px;
+    padding: 5px 3px;
+  }
+  .secondary-img img{
+    display: none;
+  }
+  .hero-text {
+    right: 50px;
+  }
+
+  .item{
+    padding-left:0px;
+    left: 0;
+    margin-left:0px;
+  }
+
+  .border ul li a {
+    font-size: 15px;
+    left: 0;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+}

@@ -6,6 +6,7 @@ For this project, I got to build a website using html and css to showcase my wor
 
 The portfolio has several interactive features including the navigation, work section and contact area. For these sections I used linkable syntaxes to bring the user to an appropriate location. I also implemented media queries so that when the user views the page depending on device they should see a responsive layout. 
 
+The most recent update to this project was adding an additional portfolio piece of a collaborative group project called "Film Advisor". 
 
 ## Table of Contents 
 
@@ -17,12 +18,12 @@ The portfolio has several interactive features including the navigation, work se
 
 ## Installation
 
-To run this page a viewer can click the live URL or download Visual Studio Code and open the html within this program. GitHub is another important program to store latest versions and track changes. 
+To install the project, you need to use git clone and git pull from <a href ="https://github.com/abauer424/Portfolio"> my repository.</a>
 
 ## Usage
 
 Upon page load, the user will see the image below is how the page should appear. In the nav, on the top left we have my name Amber Bauer, and on the right several links to different sections of the page. The resume link, will bring the user to a separate page to view the document. 
-<img src="https://github.com/abauer424/work-day-scheduler/blob/main/Assets/images/image1.png" alt="image of portfolio"/>
+<img src="https://github.com/abauer424/Portfolio/blob/main/assets/images/portfolio.png" alt="image of portfolio"/>
 
 
 ## Credits

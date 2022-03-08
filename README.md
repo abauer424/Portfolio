@@ -10,6 +10,7 @@ The portfolio has several interactive features including the navigation, work se
 ## Table of Contents 
 
 * [Installation](#installation)
+* [Usage](#usage)
 * [Credits](#credits)
 * [License](#license)
 
@@ -18,12 +19,17 @@ The portfolio has several interactive features including the navigation, work se
 
 To run this page a viewer can click the live URL or download Visual Studio Code and open the html within this program. GitHub is another important program to store latest versions and track changes. 
 
+## Usage
+
+Upon page load, the user will see the image below is how the page should appear. In the nav, on the top left we have my name Amber Bauer, and on the right several links to different sections of the page. The resume link, will bring the user to a separate page to view the document. 
+<img src="https://github.com/abauer424/work-day-scheduler/blob/main/Assets/images/image1.png" alt="image of portfolio"/>
+
 
 ## Credits
 
-Made by Amber Bauer.
+Credits to Amber Bauer.
 
 
 ## License
 
-MIT License
+Please view the license <a href="https://github.com/abauer424/Portfolio/blob/main/LICENSE.md">here.</a>
